@@ -6,7 +6,8 @@ Just built a **IPL-2024 themed website** entirely using **HTML, CSS, and JavaScr
 This project was a great exercise in:
 - Structuring clean and reusable layouts  
 - Experimenting with modern styling  
-- Polishing the basics of UI design  
+- Polishing the basics of UI design
+- Responsive design
 
 While it’s simple, it marks a solid step forward in my **frontend development journey**, and I’m excited to keep leveling up my skills. 🚀
 
