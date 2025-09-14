@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+body {
+    font-family: poppins;
+    background-color: #111;
+    color: white;
+}
+.carousel {
+    width: 100%;
+    height: 90vh;
+    overflow: hidden;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+}
+
+/*------------------------ Content Box ---------------------------*/
+.content {
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    transform: translate(-50%);
+    width: 50%;
+    max-width: 1000px;
+    text-align: left;
+    color: #fff;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.author {
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.title {
+    font-weight: bold;
+    color: rgba(253, 231, 28, 0.9);
+    font-size: 2.5rem;
+}
+
+.topic {
+    font-weight: bold;
+    font-size: 4rem;
+    line-height: 1.3;
+    color: #f1683a;
+}
+
+.des {
+    font-size: 1rem;
+    margin-top: 10px;
+    line-height: 1.5;
+}
+.content .button {
+    display: grid;
+    justify-content: left;
+    gap: 10px;
+    margin-top: 20px;
+    grid-template-columns: repeat(2,130px);
+    grid-template-rows: 40px;
+}
+
+.content button {
+    border: none;
+    background-color: #eee;
+    letter-spacing: 3px;
+    font-family: poppins;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.content button:nth-child(1) {
+    background-color: #eee;
+    border: 2px solid #eee;
+}
+
+.content button:nth-child(2) {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+.content button:nth-child(1):hover{
+    border: 2px solid #eee;
+    color: #eee;
+    transition-duration: 0.6s;
+    background-color: transparent;
+}
+.content button:nth-child(2):hover{
+    border: none;
+    color: black;
+    transition-duration: 0.6s;
+    background-color: #eee;
+}
+.carousel-indicators button {
+    width: 12px;
+    height: 12px;
+    background-color: rgba(245, 222, 179, 0.8);
+}
+
+/* ------------------- Prev & Next Buttons --------------*/
+.carousel-control-prev, .carousel-control-next {
+    width: 60px !important;
+    height: 60px !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    border-radius: 50% !important;
+    background-color: #eee4 !important;
+}
+.carousel-control-prev{
+    left: 15px !important;
+}
+.carousel-control-next{
+    right: 15px !important;
+}
+.carousel-control-prev:hover, .carousel-control-next:hover {
+    background-color: rgba(238, 238, 238, 0.7);
+    transition-duration: 0.2s;
+}
+@media (max-width: 768px) {
+    .carousel {
+        height: 55vh !important;
+    }
+
+    .carousel-item img {
+        height: 55vh !important;
+        object-fit: cover;
+    }
+
+    .content {
+        top: 15%;
+        width: 50%;
+    }
+
+    .title {
+        font-size: 1.5rem !important;
+    }
+
+    .topic {
+        font-size: 2.5rem !important;
+    }
+
+    .des {
+        font-size: 0.8rem !important;
+    }
+
+    .content .button {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 1024px) {
+    .carousel {
+        height: 70vh;
+    }
+
+    .carousel-item img {
+        height: 70vh;
+        object-fit: cover;
+    }
+
+    .content {
+        top: 15%;
+        width: 50%;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+
+    .topic {
+        font-size: 3rem;
+    }
+
+    .des {
+        font-size: 1rem;
+    }
+
+    .content .button {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    .carousel {
+        height: 40vh  !important;
+    }
+    .carousel-item img {
+        height: 40vh  !important;
+        object-fit: cover;
+    }
+    .content {
+        top: 15%;
+        width: 50%;
+    }
+
+    .title {
+        font-size: 1rem  !important;
+    }
+
+    .topic {
+        font-size: 2rem  !important;
+    }
+
+    .des {
+        font-size: 0.5rem  !important;
+    }
+
+    .content .button {
+        flex-direction: column;
+    }
+}

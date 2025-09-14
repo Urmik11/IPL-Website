@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lexend+Giga:wght@100..900&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+}
+.footer{
+    background-color: #10141c;
+    height: auto;
+}
+.footer .spons{
+    background-color: #001f40;
+    height: auto;
+    display: flex;
+    border-radius: 10px;
+    padding: 10px 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.footer .spon{
+    color: #faf1b5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.footer .spon p{
+    font-family: oswald;
+    font-weight: 500;
+    font-size: 13px;
+}
+.footer .spon .title-div{
+    max-width: 110px;
+    text-align: center;
+}
+.footer .spons img{
+    cursor: pointer;
+}
+.footer .line-div{
+    display: flex;
+    padding: 8px;
+}
+.footer .line-div .line{
+    width: 1.5px;
+    background-color: #fff9c5;
+    margin-top: 17px;
+}
+.footer .ex{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+.footer .ex .desc{
+    display: flex;
+    flex-direction: column;
+    max-width: 30%;
+    gap: 10px;
+    margin-top: 15px;
+    font-family: poppins;
+}
+.footer .ex .desc .des-title{
+    font-size: 20px;
+    font-family: Kanit;
+    margin-bottom: 8px;
+    color: #ffffff;
+}
+.footer .ex .desc a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #86878c;
+}
+.footer .ex .desc a:hover{
+    text-decoration: underline;
+}
+.footer .copyRight{
+    display: flex;
+    height: 40px;
+    font-family: poppins;
+    color: rgba(255, 255, 255, 0.829);
+    font-size: 13px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 1082px){
+    .footer .ex{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .footer .ex .desc{
+        width: 100%;
+    }
+}

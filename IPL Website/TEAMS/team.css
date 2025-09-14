@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+.logo-div{
+    display: flex;
+    width: 150px;
+    height: 150px;
+    margin-top: 25px;
+    margin-left: 40px;
+}
+.line{
+    width: 1px;
+    height: 105px;
+    margin-top: 50px;
+    background-color: grey;
+}
+.data{
+    margin-left: 10px;
+    margin-top: 40px;
+}
+.team-name{
+    color: white;
+    font-family: oswald;
+    font-size: 30px;
+    font-weight: bold;
+}
+.trophy{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+}
+.trophy img{
+    height: 30px;
+    width: 30px;
+}
+.trophy div{
+    display: flex;
+    font-family: poppins;
+    color: white;
+    font-size: 13px;
+    border: 1px solid grey;
+    background-color: #1a3158;
+    border-radius: 20px;
+    height: 25px;
+    align-items: center;
+    justify-content: center;
+}
+.button{
+    margin-top: 8px;
+    height: 10px;
+}
+.button button{
+    display: flex;
+    height: 25px;
+    font-size: 13px;
+    align-items: center;
+    background-color: rgb(255, 115, 0);
+    border: none;
+    font-family: poppins;
+    color: white;
+    border-radius: 3px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.button button img{
+    height: 10px;
+    margin-left: 5px;
+}
+.detail{
+    display: flex;
+    background-color: #001a45;
+    height: 200px;
+    width: 100%;
+}
+.team-data{
+    background-color: #002b5c;
+    height: 150px;
+    width: 400px;
+    float: right;
+    position: absolute;
+    right: 40px;
+    margin-top: 25px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.team-data .line{
+    background-color: #001a45;
+    width: 400px;
+    height: 1px;
+    margin-top: 0px;
+}
+.team-data .div1{
+    display: flex;
+    align-items: center;
+    height: 37px;
+    display: flex;
+    width: 400px;
+}
+.d1{
+    margin-left: 10px;
+}
+.d2{
+    font-family: poppins;
+    font-size: 15px;
+    color: #e0af2d;
+    font-weight: 600;
+}
+.div1 pre{
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: 15px;
+    color: white;
+}
+.d3{
+    color: rgba(255, 255, 255, 0.938);
+    font-size: 15px;
+    font-family: poppins;
+    font-weight: 600;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title div{
+    margin-top: 20px;
+    display: flex;
+    font-family: oswald;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2441e;
+    height: 60px;
+    width: 150px;
+    font-size: 35px;
+    border: 5px double;
+    font-weight: bold;
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+.sq{
+    display: flex;
+    justify-content: center;
+}
+.squad{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+}
+.squad .player{
+    width: 270px;
+    border: 2px solid darkgrey;
+    background-color: white;
+    border-radius: 5px;
+    height: auto;
+}
+.player-photo{
+    height: 270px;
+    width: 100%;
+    border-bottom: 2px solid darkgrey;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.player-name{
+    height: 38px;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: poppins;
+    color: #272b32;
+    font-weight: bold;
+    font-size: 20px;
+}
+.main{
+    width: 100%;
+    height: 100%;
+}
+.main1{
+    height: 100%;
+    width: 85%;
+}
+.ficon, .baticon, .cicon, .baticon1, .ficon1, .cicon1, .cicon2 {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 8px;
+}
+.ficon { 
+    left: 8px; 
+}
+.baticon {
+    right: 8px; 
+}
+.cicon { 
+    left: 8px; 
+}
+.baticon1 { 
+    right: 8px; 
+}
+.ficon1 { 
+    left: 8px; 
+}
+.cicon1 {
+    left: 8px; 
+    top: 45px; 
+}
+.cicon2 {
+    left: 8px;
+}

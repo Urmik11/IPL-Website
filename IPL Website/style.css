@@ -1,0 +1,599 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lexend+Giga:wght@100..900&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* ------------ NEWS Bar ------------ */
+.bar{
+    display: flex;
+    background-color: #0d172b;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+}
+.title2{
+    display: inline-block;
+    align-items: center;
+    font-size: 50px;
+    height: 200px;
+    max-width: 170px;
+    font-family: Kanit;
+    font-weight: 500;
+    color: white;
+    margin-right: 40px;
+}
+.title2 .loggo img{
+    height: 70px;
+    width: 100px;
+}
+.title2 .title2-t{
+    margin-top: 15px;
+}
+.stat{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+}
+.stat-item{
+    height: 230px; 
+}
+.image:hover{
+    border: 3px dashed rgb(255, 136, 0);
+    transition-duration: 0.3s;
+}
+
+.image{
+    display: flex;
+    width: 140px;
+    height: 180px;
+    border: 3px solid white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+    overflow: hidden;
+}
+.image:hover img{
+    transform: scale(0.9);
+    transition-duration: 0.5s;
+}
+.image img{
+    border-radius: 10px;
+    height: 177px;
+    width: 137px;
+}
+.desc{
+    max-width: 140px;
+    color: white;
+    font-family: poppins;
+}
+.desc p{
+    text-align: center;
+}
+
+/* ------------ Points Table ------------ */
+
+.points-table-section {
+    padding: 40px 20px;
+}
+.head{
+    display: flex;
+    justify-content: center;
+}
+.head .section-title {
+    text-align: center;
+    font-family: Oswald;
+    background-color: #f2441e;
+    color: #fff;
+    border: 5px double;
+    padding: 10px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.table1 {
+    width: 100%;
+    border-radius: 10px;
+    font-family: poppins;
+    border-radius: 10px;
+    background-color: #fafbfc;
+    overflow: hidden;
+    font-size: 15px;
+}
+.table1 th,
+.table1 td {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.table1 td{
+    border: none;
+}
+.table1 thead{
+    background-color: white;
+    height: 50px;
+    border-bottom: 1.5px solid #e5e6ea;
+}
+.table1 th {
+    font-weight: bold;
+}
+.table1 th:nth-child(2){
+    display: flex;
+    margin-top: 10px;
+    border: none;
+}
+.table1 td:nth-child(2){
+    display: flex;
+    border: none;
+}
+.table1 td img {
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.form {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+}
+.form.N {
+    border: 1px solid gray;
+    color: gray;
+}
+.form.W {
+    border: 1px solid green;
+    color: green;
+}
+.form.L {
+    border: 1px solid red;
+    color: red;
+}
+  
+/* ---------- Teams Section ---------- */
+.team-div{
+    background-color: #0d172b;
+    height: auto;
+    width: auto;
+}
+.team-div .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.team-div .title p{
+    margin-top: 20px;
+    display: flex;
+    font-family: oswald;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2441e;
+    height: 60px;
+    width: 150px;
+    font-size: 35px;
+    border: 5px double;
+}
+.team-div .teams{
+    display: flex;
+    justify-content: center;
+}
+.team-div .team{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    padding: 0px 40px;
+    max-width: 1450px;
+}
+.team-div .team .data{
+    border-radius: 10px;
+    height: 265px;
+    width: 262px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+.team-div .team .data:hover{
+    transform: translateY(-7px);
+}
+.team-div .team .data .logo-div{
+    height: 180px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.team-div .team .data .logo-div div{
+    height: 400px;
+    width: 400px;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    position: absolute;
+}
+.team-div .team .data .logo-div img{
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    margin-bottom: 35px;
+}
+.team-div .team .data .team-name{
+    height: 85px;
+}
+.team-div .team .data .team-name p{
+    font-family: kanit;
+    letter-spacing: 0.5px;
+    color: rgba(255, 255, 255, 0.897);
+    font-size: 17px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.team-div .team a{
+    text-decoration: none;
+}
+
+/* ---------- Stats ---------- */
+
+.stats .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.stats .title p{
+    margin-top: 20px;
+    display: flex;
+    font-family: oswald;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2441e;
+    height: 60px;
+    width: 150px;
+    font-size: 35px;
+    border: 5px double;
+    margin-bottom: 20px;
+}
+.stat-items{
+    display: flex;
+    justify-content: center;
+}
+.stat-bar{
+    display: flex;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.stat-bar .player-stat{
+    display: flex;
+    height: 200px;
+    width: 550px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.player-stat .player-photo{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+.player-photo .img{
+    height: 100%;
+}
+.player-stat .detail{
+    font-family: poppins;
+    position: relative;
+    z-index: 2;
+    display: flex;
+}
+.player-stat .detail .head-title{
+    margin-top: 10px;
+    border: 1.5px solid darkgray;
+    background-color: white;
+    padding: 5px;
+    font-weight: bold;
+    width: fit-content;
+}
+.player-stat .detail .p1{
+    font-size: 30px;
+    font-family: kanit;
+    color: #ffffff;
+    font-weight: 500;
+    margin-top: 5px;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+.player-stat .detail div .p2{
+    display: flex;
+    color: #ffffff;
+    margin-top: -10px;
+    align-items: center;
+}
+.player-stat .detail .p2 p:nth-child(1){
+    font-size: 15px;
+}
+.player-stat .detail .p2 p:nth-child(3){
+    font-size: 15px;
+    font-weight: bold;
+}
+.player-stat .detail .points{
+    display: flex;
+    color: white;
+    align-items: center;
+    width: fit-content;
+    margin-top: 10px;
+}
+.points .pp1{
+    font-size: 15px;
+}
+.points .pp2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.player-stat .detail .bg-img{
+    display: flex;
+    align-items: center;
+}
+.player-stat .detail .bg-img img{
+    height: 140%;
+    z-index: 1;
+    position: absolute;
+    opacity: 0.5;
+}
+/* --------- Auction ----------- */
+.auction-bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    background-color: #0d172b;
+}
+.auction-bar .title p{
+    margin-top: 20px;
+    display: flex;
+    font-family: oswald;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2441e;
+    height: 60px;
+    width: 150px;
+    font-size: 35px;
+    border: 5px double;
+    margin-bottom: 20px;
+}
+.slider-container { 
+    position: relative; 
+    width: 70%; 
+    overflow: hidden; 
+    border-radius: 10px; 
+}
+.slider { 
+    display: flex; 
+    transition: transform 0.5s ease-in-out; 
+    gap: 2.33%;
+}
+.slide1 {
+    min-width: 31%;   
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;  
+    border-radius: 10px;
+    font-family: kanit;
+    color: #ffffff;
+}
+.slide1 img { 
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-self: center;
+}
+.fund{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.palyer-available{
+    display: flex;
+    width: 100%;
+}
+.palyer-available .overseas,
+.palyer-available .total{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ans{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: -15px;
+}
+.sm-line{
+    width: 100%;
+    height: 1px;
+    background-color: darkgray;
+}
+.sm-line1{
+    width: 1px;
+    background-color: darkgray;
+}
+.controls {
+    display: flex; 
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+}
+.controls button{
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 50%;
+}
+/* --------- Footer ----------- */
+.footer{
+    background-color: #10141c;
+    height: auto;
+}
+.footer .spons{
+    background-color: #001f40;
+    height: auto;
+    width: 100%;
+    display: flex;
+    border-radius: 10px;
+    padding: 10px 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.footer .spon{
+    color: #faf1b5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.footer .spon p{
+    font-family: oswald;
+    font-weight: 500;
+    font-size: 13px;
+}
+.footer .spons img{
+    cursor: pointer;
+}
+.footer .spon .title-div{
+    max-width: 110px;
+    text-align: center;
+}
+.footer .line-div{
+    display: flex;
+    padding: 8px;
+}
+.footer .line-div .line{
+    width: 1.5px;
+    background-color: #fff9c5;
+}
+.footer .ex{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    flex-wrap: wrap ;
+    gap: 60px;
+}
+.footer .ex .desc{
+    display: flex;
+    flex-direction: column;
+    max-width: 30%;
+    gap: 10px;
+    margin-top: 15px;
+}
+.footer .ex .desc .des-title{
+    font-size: 20px;
+    font-family: kanit;
+    margin-bottom: 8px;
+}
+.footer .ex .desc a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #86878c;
+}
+.footer .ex .desc a:hover{
+    text-decoration: underline;
+}
+.footer .copyRight{
+    display: flex;
+    height: 40px;
+    color: rgba(255, 255, 255, 0.829);
+    font-size: 13px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 1082px){
+    .bar{
+        flex-direction: column;
+        padding: 0;
+    }
+    .title2{
+        display: flex;
+        gap: 20px;
+        font-size: 30px;
+        max-width: 218px;
+    }
+    .title2 img{
+        height: 140px;
+        width: 100px;
+    }
+    .stat{
+        margin-top: 0px;
+    }
+    .footer .ex{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .footer .ex .desc{
+        width: 100%;
+    }
+}
+@media (max-width: 550px){
+    .player-stat .detail .bg-img img{
+        display: none;
+    }
+    .stat-bar .player-stat{
+        height: auto;
+        width: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+    .stat-bar .player-stat .player-photo{
+        width: auto;
+    }
+}
+@media (max-width: 1200px) {
+    .slider-container { 
+        width: 80%;
+    }
+    .slide1 {
+        min-width: 48%;
+    }
+}
+@media (max-width: 768px) {
+    .slider-container { 
+        width: 90%;
+    }
+    .slide1 {
+        min-width: 100%;
+    }
+    .controls {
+        justify-content: center;
+    }
+    .controls button {
+        font-size: 16px;
+        padding: 8px 12px;
+    }
+}
+@media (max-width: 500px) {
+    .auction-bar .title p {
+        font-size: 25px;
+        width: 120px;
+        height: 50px;
+    }
+    .slide1 img {
+        height: 80px;
+        width: 80px;
+    }
+    .ans {
+        font-size: 18px;
+    }
+}
