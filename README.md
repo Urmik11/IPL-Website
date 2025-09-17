@@ -1,6 +1,6 @@
 # IPL Website 🏏
 
-Just built a **IPL-2024 themed website** entirely using **HTML, CSS, and JavaScript only**.
+Just built a **IPL-2024 themed website** entirely using **HTML, CSS, and JavaScript only**.While it’s simple, it marks a solid step forward in my **frontend development journey**, and I’m excited to keep leveling up my skills. 🚀
 
 ## 📖 About the Project
 This project was a great exercise in:
@@ -8,8 +8,6 @@ This project was a great exercise in:
 - Experimenting with modern styling  
 - Polishing the basics of UI design
 - Responsive design
-
-While it’s simple, it marks a solid step forward in my **frontend development journey**, and I’m excited to keep leveling up my skills. 🚀
 
 ## 📂 Project Structure
 - `pro.html` → Main entry point of the project  
